@@ -1,0 +1,83 @@
+.signin_container {
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+    margin: auto;
+}
+
+.signin_container img {
+    height: 400px;
+    width: 100%;
+    margin-top: 40px !important;
+}
+
+.signin_container_col2 {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+        rgba(0, 0, 0, 0.3) 0px 1px 3px -1px !important;
+    /* background-color: rgba(250, 235, 215, 0.464); */
+    padding: 40px;
+    padding-top: 30px;
+    margin-bottom: 100px !important;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.signin_container_col2 h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+}
+
+.signin_container_col2 input:focus {
+    outline: 1px solid #222930 !important;
+    box-shadow: none !important;
+    color: #222930;
+}
+
+.signin_btn {
+    background-color: #222930;
+    color: #E9E9E9;
+    width: 200px !important;
+}
+
+.signin_btn:hover {
+    background-color: #E9E9E9;
+    color: #222930;
+}
+
+@media only screen and (min-device-width: 325px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+    .signin_container {
+        margin-top: 0 !important;
+        margin-bottom: 10px !important;
+        padding: 0 !important;
+        margin: auto;
+    }
+
+    .signin_container img {
+        height: 300px;
+    }
+
+    .signin_btn {
+        width: 100px !important;
+    }
+    .signin_container_col2 {
+        padding: 0;
+    }
+}
+@media only screen and (max-device-width: 325px) and (-webkit-min-device-pixel-ratio: 2) {
+    .signin_container img {
+        height: 250px;
+        margin: 0 !important;
+    }
+
+    .signin_container {
+        margin-top: 0 !important;
+        margin-bottom: 10px !important;
+        padding: 0 !important;
+        margin: auto;
+    }
+
+    .signin_btn {
+        width: 100px !important;
+    }
+    .signin_container_col2 {
+        padding: 0;
+    }
+}

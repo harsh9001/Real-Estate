@@ -1,0 +1,120 @@
+.signup_container {
+    margin: 0;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.signup_container_col1 img {
+    height: 500px;
+    width: 100%;
+    margin-top: 40px !important;
+}
+
+.signup_container_col2 {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px !important;
+    padding: 40px;
+    margin-bottom: 100px !important;
+}
+
+.signup_container_col2 h4 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+}
+
+.signup_container_col2 .signup_btn {
+    background-color: #222930;
+    color: #E9E9E9;
+    width: 200px !important;
+}
+
+.signup_container_col2 .signup_btn:hover {
+    background-color: #E9E9E9;
+    color: #222930;
+}
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+    .signup_container_col1 img {
+        height: 400px;
+        width: 100%;
+        margin: 0 !important;
+    }
+
+    .signup_container_col2 h4 {
+        margin-top: 0;
+    }
+}
+@media only screen and (min-device-width: 325px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+
+    .signup_container {
+        margin: 0;
+        padding: 0;
+    }
+
+    .signup_container_col1 img {
+        height: 350px;
+        width: 100%;
+        margin: 0 !important;
+    }
+
+    .signup_container_col2 h4 {
+        margin-top: 0;
+        padding: 0;
+    }
+    .signup_container_col2 {
+        margin-top: 0;
+        padding: 20px;
+    }
+}
+@media only screen and (min-device-width: 250px) and (max-device-width: 325px) and (-webkit-min-device-pixel-ratio: 2) {
+
+    .signup_container {
+        margin: 0;
+        padding: 0;
+    }
+
+    .signup_container_col1 img {
+        height: 350px;
+        width: 100%;
+        margin: 0 !important;
+    }
+
+    .signup_container_col2 h4 {
+        margin-top: 0;
+        padding: 0;
+    }
+    .signup_container_col2 {
+        margin-top: 0;
+        padding: 0;
+    }
+}
+@media only screen and (max-device-width: 250px) and (-webkit-min-device-pixel-ratio: 2) {
+
+    .signup_container {
+        margin: 0;
+        padding: 0;
+    }
+
+    .signup_container_col1 img {
+        height: 300px;
+        width: 100%;
+        margin: 0 !important;
+    }
+
+    .signup_container_col2 h4 {
+        margin-top: 0;
+        padding: 0;
+    }
+    .signup_container_col2 {
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .signup_container_col2 .signup_btn {
+        background-color: #222930;
+        color: #E9E9E9;
+        width: 100px !important;
+    }
+}

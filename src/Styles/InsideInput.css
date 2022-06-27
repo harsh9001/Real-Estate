@@ -1,0 +1,16 @@
+.buttonInside{
+    position:relative;
+}
+
+.eyeBtn {
+    position: absolute;
+    right: 8px;
+    top: 10px;
+    border: none;
+    outline: none;
+    background: transparent;
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}

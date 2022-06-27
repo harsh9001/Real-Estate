@@ -1,0 +1,7 @@
+.spinner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #8E9EAB;
+    background: transparent;
+}

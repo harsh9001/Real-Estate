@@ -1,0 +1,39 @@
+.full_page {
+    background: #8E9EAB;
+    background: -webkit-linear-gradient(
+        to right,
+        #EEF2F3,
+        #8E9EAB
+    );
+    background: linear-gradient(
+        to right,
+        #EEF2F3,
+        #8E9EAB
+    );
+}
+
+.heading {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    margin: 10px;
+    padding: 10px;
+}
+
+.form_container {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+        rgba(0, 0, 0, 0.3) 0px 1px 3px -1px !important;
+    width: 50%;
+    margin-bottom: 20px !important;
+    background-color: #FFFFFF;
+}
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+    .form_container {
+        width: 75% !important;
+    }
+}
+@media only screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+    .form_container {
+        width: 100% !important;
+    }
+}

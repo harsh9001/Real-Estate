@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.footer {
+    background: #222930 !important;
+    border-top: 8px solid #4EB1BA !important;
+    /* background: linear-gradient(90deg, rgba(71, 13, 33, 1) 0%, rgba(156, 15, 72, 1) 100%) !important; */
+}
+
+.footer h3 {
+    font-family: 'Pacifico', cursive;
+}
+
+.footer p:hover {
+    background-color: #4EB1BA !important;
+    color: #E9E9E9 !important;
+    opacity: 1;
+}

@@ -1,0 +1,51 @@
+.offers {
+    padding-top: 10px !important;
+    padding-bottom: 30px !important;
+    /* background: #E0EAFC;
+    background: -webkit-linear-gradient(
+        to right,
+        #CFDEF3,
+        #E0EAFC
+    );
+    background: linear-gradient(
+        to right,
+        #CFDEF3,
+        #E0EAFC
+    ); */
+    background: #8E9EAB;
+    background: -webkit-linear-gradient(
+        to right,
+        #EEF2F3,
+        #8E9EAB
+    );
+    background: linear-gradient(
+        to right,
+        #EEF2F3,
+        #8E9EAB
+    );
+}
+
+.offers h1 {
+    font-family: cursive;
+    text-align: center;
+    margin: 30px 0px !important;
+}
+
+.load-btn {
+    background-color: #222930 !important;
+    font-size: 1rem;
+    padding: 5px 15px;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.load-btn:hover {
+    color: #222930 !important;
+    font-size: 1rem;
+    padding: 5px 15px;
+    background-color: white !important;
+    outline: 2px solid #222930;
+    border-radius: none;
+}

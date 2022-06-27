@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.navbar {
+    font-family: 'Montserrat', sans-serif !important ;
+    font-weight: bold;
+    background-color: #222930 !important;
+    border-bottom: 8px solid #4EB1BA !important;
+}
+
+.collapse {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: bold;
+    background-color: #222930 !important;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: #4EB1BA;
+}
+
+.navbar .navbar-brand {
+    color: #E9E9E9 !important;
+    font-family: 'Lucida Sans', 'Lucide Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+
+.navbar .navbar-toggler-icon {
+    color: #E9E9E9 !important;
+}
+
+.navbar button:focus {
+    color: #E9E9E9 !important;
+}
+
+.navbar .nav-link {
+    color: #E9E9E9 !important;
+    margin: 10px
+}
+
+.navbar .nav-item a:hover {
+    border-radius: 10px;
+    background: #4EB1BA;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px !important;
+}
+.navbar .nav-item a:hover {
+    border-radius: 10px;
+    background: #4EB1BA;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px !important;
+}
+
+.navbar .active {
+    border-radius: 10px;
+    background-color: #4EB1BA !important;
+    color: #E9E9E9 !important;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px !important;
+}
